@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="post-entry">
+<h2>{{ object.subject }}</h2>
+<p>{{ object.subtopic_name }}</p>
+<p>{{ object.importance_score }}</p>
+<p>{{ object.complexity_score }}</p>
+</div>
+{% endblock content %}

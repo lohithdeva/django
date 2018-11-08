@@ -1,0 +1,6 @@
+<h1>{{ subject.subject_name }}</h1>
+<ul>
+{% for subtopic in subject.choice_set.all %}
+    <li>{{ subtopic.subtopic_name }}</li>
+{% endfor %}
+</ul>
